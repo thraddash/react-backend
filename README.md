@@ -1,7 +1,10 @@
 # react-backend
 npm install -g express-generator
+
 express react-backend
+
 cd react-backend
+
 npm install
 
 vi routes/users.js
@@ -21,7 +24,7 @@ module.exports = router;
 ```
 PORT=3001 npm start
 
-By default express will start in port 3000, there will be port conflict with create-react-app because it will also want to start in port 3000, setting env PORT=3001 will avoid the conflict
+By default express (react-backend) will start in port 3000, there will be port conflict with create-react-app (react-frontend) because it will also want to start in port 3000, setting env PORT=3001 in react-backend will avoid this conflict 
 
 http://localhost:3001/users
 ```
